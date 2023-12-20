@@ -1,0 +1,257 @@
+/* Importing Fonts */
+@font-face {
+  font-family: irishGrover;
+  src: url("./public/fonts/IrishGrover.ttf");
+}
+
+@font-face {
+  font-family: inconsolata;
+  src: url("./public/fonts/Inconsolata-Regular.ttf");
+}
+
+@font-face {
+  font-family: inriaSans;
+  src: url("./public/fonts/InriaSans-Italic.ttf");
+}
+
+/* Styling */
+
+/* Resets */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Body Styling */
+
+body {
+  background: #FFECDA;
+  overflow-x: hidden;
+  height: 100vh;
+  font-family: inconsolata, 'serif';
+  font-size: 16px;
+  line-height: 1.3em;
+  color: #000000b3;
+}
+
+/* Main container */
+#main {
+  width: 100vw;
+  height: 100vh;
+}
+
+#content {
+  width: 90%; 
+  margin: 0 auto;
+}
+
+#content .container {
+  width: 100%;
+}
+
+
+/* Navbar */
+
+nav {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 2px solid black;
+  margin-bottom: 2rem;
+}
+
+nav .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content */
+
+.bold {
+  font-weight: bold;
+  color: black;
+}
+
+.first_paragraph {
+  font-size: 1.8rem;
+  line-height: 1.2em;
+}
+
+.first__and__second {
+  display: flex;
+}
+
+.big__letter {
+  font-size: 9rem;
+  text-transform: uppercase;
+  font-family: irishGrover, 'serif';
+  color: #460000;
+  align-self: flex-end !important;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second {
+  max-width: 85rem;
+}
+
+.third {
+  margin: 0;
+  max-width: 95rem;
+}
+
+.second__paragraph {
+  font-size: 1.8rem;
+  line-height: 1.2em;
+}
+
+.about__contd {
+  max-width: 86rem;
+}
+
+.images__container {
+  display: flex;
+  width: 100%;
+  margin-bottom: .5rem;
+  flex-wrap: wrap;
+}
+
+.image1,
+.image2,
+.image3 {
+  width: 33.3%;
+  height: 16rem;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.source {
+  color: black;
+  font-family: inriaSans;
+}
+
+.source span {
+  font-weight: bold;
+}
+
+.checks__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first__check span {
+  border-bottom: 1px solid #000000b3;
+  font-size: 1.5rem;
+}
+
+.first__check span:nth-child(1) {
+  font-weight: bold;
+  border: none;
+  color: black;
+}
+
+.forgot {
+  margin-top: .8rem;
+}
+
+.forgot span {
+  border-bottom: 1px solid #000000b3;
+  font-size: 1.5rem;
+}
+
+.archive__and__resume__container {
+  display: flex;
+  gap: 4rem;
+}
+
+.archive__and__resume__container a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: black;
+  text-transform: uppercase;
+}
+
+.archive,
+.resume {
+  border: 2px solid black;
+  padding: 1.5rem 5rem;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  font-weight: bold;
+}
+
+.archive::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: block;
+  position: absolute;
+  right: -65%;
+  top: -30%;
+  transform: rotate(45deg);
+}
+
+.resume::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: block;
+  position: absolute;
+  right: -65%;
+  top: -30%;
+  transform: rotate(45deg);
+}
+  
+  /* Footer */
+
+  footer {
+    width: 90%;
+    border-top: 1px solid black;
+    margin: 0 auto;
+    padding: 1rem 0;
+    padding-bottom: 1.5rem;
+  }
+
+  footer .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000b3;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #000000b3;
+  }
+
+  .email,
+  .copy {
+    margin-left: 1.2rem;
+  }
+
+  .year {
+    font-size: 1.5rem;
+  }
+
+  .mail {
+    text-decoration: none;
+    color: #000000b3;
+    font-size: 1.5rem;
+  }
