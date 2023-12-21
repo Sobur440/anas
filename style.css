@@ -382,7 +382,7 @@ nav .container {
       width: 100%;
     }
     .first__check span {
-      font-size: 4%;
+      font-size: 4vw;
     }
 
     .archive__and__resume__container {
@@ -422,10 +422,6 @@ nav .container {
       height: 15rem;
     }
 
-    /* .first__check span {
-      font-size: 1.5rem;
-    } */
-
     .archive,
     .resume {
       padding: 3rem 0;
@@ -443,8 +439,8 @@ nav .container {
       background: #460000;
       display: block;
       position: absolute;
-      right: -58%;
-      top: -24%;
+      right: -37vw;
+      top: -20vw;
       transform: rotate(45deg);
     }
     
@@ -455,8 +451,8 @@ nav .container {
       background: #460000;
       display: block;
       position: absolute;
-      right: -58%;
-      top: -24%;
+      right: -37vw;
+      top: -20vw;
       transform: rotate(45deg);
     }
 
