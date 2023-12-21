@@ -375,17 +375,14 @@ nav .container {
 
     .related__checks {
       line-height: 1.6em;
+      width: 100%;
     }
 
     .first__check {
       width: 100%;
     }
     .first__check span {
-      font-size: 1.2rem;
-    }
-
-    .forgot span {
-      font-size: 1.2rem;
+      font-size: 4%;
     }
 
     .archive__and__resume__container {
@@ -412,13 +409,31 @@ nav .container {
     }
 
     nav {
-      height: 7rem;
+      height: 5rem;
+    }
+
+    .logo {
+      transform: scale(0.5);
     }
 
     .image1,
     .image2,
     .image3 {
       height: 15rem;
+    }
+
+    /* .first__check span {
+      font-size: 1.5rem;
+    } */
+
+    .archive,
+    .resume {
+      padding: 3rem 0;
+    }
+
+    .resume__link,
+    .archive__link{
+      font-size: 3rem;
     }
 
     .archive::after {
@@ -428,8 +443,8 @@ nav .container {
       background: #460000;
       display: block;
       position: absolute;
-      right: -62%;
-      top: -27%;
+      right: -58%;
+      top: -24%;
       transform: rotate(45deg);
     }
     
@@ -440,8 +455,8 @@ nav .container {
       background: #460000;
       display: block;
       position: absolute;
-      right: -64%;
-      top: -29%;
+      right: -58%;
+      top: -24%;
       transform: rotate(45deg);
     }
 
@@ -449,7 +464,7 @@ nav .container {
     .year,
     .mail
      {
-      font-size: 1.1rem;  
+      font-size: 4vw;  
     }
 
     .email,
