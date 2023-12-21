@@ -18,7 +18,7 @@ const preloader = () => {
   }
   
   setTimeout(() => {
-      setInterval(updateCounter, 300)
+      setInterval(updateCounter, 255)
   }, 400)
 }
 preloader()
@@ -26,7 +26,7 @@ preloader()
 const tl = gsap.timeline()
 
 tl.to(".loader", {
-  delay: 7.1,
+  delay: 5.7,
   opacity: 0
 })
 .set(".loader", {
@@ -62,7 +62,7 @@ const imgObserver = new IntersectionObserver((entries) => {
       }, "<")
     }
   })
-}, {threshold: 0.3})
+}, {threshold: 0.1})
 imgObserver.observe(document.querySelector(".images__container"))
 
 
@@ -81,5 +81,5 @@ const copied = () => {
   elem.select()
   document.execCommand("copy")
   document.body.removeChild(elem)
-  alert("copied")
+  alert("copied!")
 }
