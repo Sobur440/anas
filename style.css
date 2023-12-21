@@ -398,6 +398,18 @@ nav .container {
       align-items: center;
     }
 
+    .social,
+    .year,
+    .mail
+     {
+      font-size: 4vw;  
+    }
+
+    .email,
+    .copy {
+      margin-left: 10px;
+    }
+
   }
 
   @media(max-width: 450px) {
@@ -455,17 +467,6 @@ nav .container {
       top: -20vw;
       transform: rotate(45deg);
     }
-
-    .social,
-    .year,
-    .mail
-     {
-      font-size: 4vw;  
-    }
-
-    .email,
-    .copy {
-      margin-left: 2px;
-    }
+    
 
   }
