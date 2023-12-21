@@ -106,11 +106,12 @@ nav .container {
   max-width: 100%;
   overflow: hidden;
   text-align: justify;
+  line-height: 1.5em;
 }
 
 .second__paragraph {
   font-size: 1.8rem;
-  line-height: 1.2em;
+  line-height: 1.5em;
   width: 100%;
 }
 
