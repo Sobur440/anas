@@ -84,11 +84,12 @@ nav .container {
 .first_paragraph {
   font-size: 1.8rem;
   line-height: 1.2em;
+  width: 100%;
 }
 
-/* .first__and__second {
-  display: flex;
-} */
+.first__and__second {
+  width: 100%;
+}
 
 .first {
   font-size: 9rem;
@@ -102,17 +103,22 @@ nav .container {
 }
 
 .second {
-  max-width: 85rem;
+  max-width: 100%;
   overflow: hidden;
 }
 
 .second__paragraph {
   font-size: 1.8rem;
   line-height: 1.2em;
+  width: 100%;
+}
+
+.second__paragraph .container {
+  width: 100%;
 }
 
 .about__contd {
-  max-width: 86rem;
+  max-width: 100%;
 }
 
 .images__container {
