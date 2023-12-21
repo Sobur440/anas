@@ -328,6 +328,23 @@ nav .container {
     font-size: 1.5rem;
   }
 
+  .copied {
+    background: #460000;
+    color: #FFECDA;
+    width: 7rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 1rem;
+    position: fixed;
+    bottom: 3rem;
+    left: 50vw;
+    opacity: 0;
+    font-size: 1.2rem;
+  }
+
 
   /* Media Queries */
 

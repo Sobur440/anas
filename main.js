@@ -81,5 +81,18 @@ const copied = () => {
   elem.select()
   document.execCommand("copy")
   document.body.removeChild(elem)
-  alert("copied!")
+  gsap.timeline()
+  .to(".copied", {
+    opacity: 1,
+    ease: "linear",
+    duration: 1
+  })
+  .set(".copied", {
+    opacity: 1
+  })
+  .to(".copied", {
+    opacity: 0,
+    ease: "linear",
+    duration: 1
+  }, "+=0.5")
 }
