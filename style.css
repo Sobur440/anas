@@ -63,8 +63,9 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  padding-bottom: .3rem;
   border-bottom: 2px solid black;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 nav .container {
