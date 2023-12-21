@@ -83,29 +83,24 @@ nav .container {
   line-height: 1.2em;
 }
 
-.first__and__second {
+/* .first__and__second {
   display: flex;
-}
+} */
 
-.big__letter {
+.first {
   font-size: 9rem;
   text-transform: uppercase;
   font-family: irishGrover, 'serif';
   color: #460000;
-  align-self: flex-end !important;
-  height: 6rem;
   display: flex;
-  justify-content: center;
   align-items: center;
+  height: 6rem;
+  float: left;
 }
 
 .second {
   max-width: 85rem;
-}
-
-.third {
-  margin: 0;
-  max-width: 95rem;
+  overflow: hidden;
 }
 
 .second__paragraph {
@@ -224,7 +219,6 @@ nav .container {
     border-top: 1px solid black;
     margin: 0 auto;
     padding: 1rem 0;
-    padding-bottom: 1.5rem;
   }
 
   footer .container {
