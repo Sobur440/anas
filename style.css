@@ -180,7 +180,12 @@ nav .container {
   color: black;
   margin-right: 2rem;
   text-transform: capitalize;
-} 
+}
+
+.first__check a {
+  color: #000000b3;
+  text-decoration: none;
+}
 
 .first__check span:nth-child(2),
 .guys {
