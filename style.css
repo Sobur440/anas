@@ -290,6 +290,7 @@ nav .container {
     padding: 1rem 0;
     padding-bottom: 2rem;
     opacity: 0;
+    position: relative;
   }
 
   .footer .container {
@@ -309,6 +310,12 @@ nav .container {
   .email,
   .copy {
     margin-left: 1.2rem;
+  }
+
+  .address {
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
   }
 
   .year {

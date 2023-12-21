@@ -18,7 +18,7 @@ const preloader = () => {
   }
   
   setTimeout(() => {
-      setInterval(updateCounter, 400)
+      setInterval(updateCounter, 300)
   }, 400)
 }
 preloader()
@@ -26,7 +26,7 @@ preloader()
 const tl = gsap.timeline()
 
 tl.to(".loader", {
-  delay: 9,
+  delay: 7.1,
   opacity: 0
 })
 .set(".loader", {
@@ -62,5 +62,24 @@ const imgObserver = new IntersectionObserver((entries) => {
       }, "<")
     }
   })
-}, {threshold: 1})
+}, {threshold: 0.3})
 imgObserver.observe(document.querySelector(".images__container"))
+
+
+//Implementing Copy
+
+const copy = document.querySelector(".copy")
+
+copy.addEventListener("click", () => {
+  copied()
+})
+
+const copied = () => {
+  const elem = document.createElement("textarea")
+  elem.value = document.querySelector(".address").textContent
+  document.body.appendChild(elem)
+  elem.select()
+  document.execCommand("copy")
+  document.body.removeChild(elem)
+  alert("copied")
+}
