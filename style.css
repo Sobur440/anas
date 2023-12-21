@@ -74,6 +74,10 @@ nav .container {
   align-items: center;
 }
 
+.logo {
+  transform: scale(0.8);
+}
+
 /* Content */
 
 .bold {
@@ -147,10 +151,13 @@ nav .container {
 .source {
   color: black;
   font-family: inriaSans;
+  font-weight: lighter;
+  font-size: .8rem;
 }
 
 .source span {
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .checks__container {
@@ -162,7 +169,7 @@ nav .container {
 .first__check span {
   border-bottom: 1px solid #000000b3;
   font-size: 1.7rem;
-  text-transform: capitalize;
+  text-transform: uppercase;
   line-height: 1.7em;
 }
 
@@ -171,10 +178,11 @@ nav .container {
   border: none;
   color: black;
   margin-right: 2rem;
+  text-transform: capitalize;
 } 
 
 .first__check span:nth-child(2),
-.first__check span:nth-child(4) {
+.guys {
   margin-right: 1rem;
 }
 
@@ -193,12 +201,13 @@ nav .container {
 .archive,
 .resume {
   border: 2px solid black;
-  padding: 1.5rem 3.5rem;
+  padding: 0 4rem;
   position: relative;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 4.5rem;
   font-weight: bold;
 }
 
@@ -228,14 +237,15 @@ nav .container {
   
   /* Footer */
 
-  footer {
-    width: 90%;
+  .footer {
+    width: 90vw;
     border-top: 1px solid black;
     margin: 0 auto;
     padding: 1rem 0;
+    padding-bottom: 2rem;
   }
 
-  footer .container {
+  .footer .container {
     width: 100%;
     display: flex;
     justify-content: space-between;
