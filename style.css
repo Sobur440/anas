@@ -105,6 +105,7 @@ nav .container {
 .second {
   max-width: 100%;
   overflow: hidden;
+  text-align: justify;
 }
 
 .second__paragraph {
@@ -119,6 +120,7 @@ nav .container {
 
 .about__contd {
   max-width: 100%;
+  text-align: justify;
 }
 
 .images__container {
