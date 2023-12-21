@@ -18,7 +18,7 @@ const preloader = () => {
   }
   
   setTimeout(() => {
-      setInterval(updateCounter, 350)
+      setInterval(updateCounter, 400)
   }, 400)
 }
 preloader()
@@ -26,7 +26,7 @@ preloader()
 const tl = gsap.timeline()
 
 tl.to(".loader", {
-  delay: 7.5,
+  delay: 9,
   opacity: 0
 })
 .set(".loader", {
