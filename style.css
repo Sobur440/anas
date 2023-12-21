@@ -159,15 +159,10 @@ nav .container {
   width: 100%;
 }
 
-.related__checks {
-  flex: 1;
-}
-
 .first__check span {
   border-bottom: 1px solid #000000b3;
   font-size: 1.7rem;
-  text-transform: uppercase;
-  margin-right: 1rem;
+  text-transform: capitalize;
   line-height: 1.7em;
 }
 
@@ -178,10 +173,14 @@ nav .container {
   margin-right: 2rem;
 } 
 
+.first__check span:nth-child(2),
+.first__check span:nth-child(4) {
+  margin-right: 1rem;
+}
+
 .archive__and__resume__container {
   display: flex;
   gap: 3.5rem;
-  flex: 1;
 }
 
 .archive__and__resume__container a {
